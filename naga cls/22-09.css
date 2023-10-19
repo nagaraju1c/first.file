@@ -1,0 +1,28 @@
+.revolution{
+    background: yellow;
+}
+.revolution .left{
+    background: green;
+    float: right;
+}
+.revolution .right{
+    background: skyblue;
+}
+
+
+
+
+.grid-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+}
+.grid-container .grid{
+    border:  10px solid green;
+    background: pink;
+    
+}
+.grid-container .grid .grid-item{
+    color: blueviolet;
+}
